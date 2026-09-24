@@ -1,0 +1,150 @@
+{
+  "input": "C:\\Users\\Faiz6\\Downloads\\template_5.docx",
+  "fonts_by_char_count": {
+    "Times New Roman": 431
+  },
+  "direct_run_formatting_runs": 17,
+  "direct_paragraph_formatting_paragraphs": 7,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "\n5. IMPLEMENTATION AND TESTING",
+      "style": "Normal"
+    },
+    {
+      "para_index": 2,
+      "text": "\n5.1 Implementation Approach",
+      "style": "Normal"
+    },
+    {
+      "para_index": 4,
+      "text": "Introduction",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 5,
+      "text": "Input and Output Design Implementation",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 6,
+      "text": "Database Implementation",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 7,
+      "text": "Table Structures",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 8,
+      "text": "Code Module",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 9,
+      "text": "System Implementation",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 10,
+      "text": "Project Summary",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 12,
+      "text": "5.2 Coding Details and Code Efficiency",
+      "style": "Normal"
+    },
+    {
+      "para_index": 13,
+      "text": "(add important module code here)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 15,
+      "text": "5.3 Testing Approach (write paragraph on following testing techniques)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 16,
+      "text": "5.3.1 Unit Testing",
+      "style": "Normal"
+    },
+    {
+      "para_index": 17,
+      "text": "5.3.2 Integration Testing",
+      "style": "Normal"
+    },
+    {
+      "para_index": 18,
+      "text": "5.3.3 System Testing",
+      "style": "Normal"
+    },
+    {
+      "para_index": 22,
+      "text": "5.4 Modifications and Improvements",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "\n5. IMPLEMENTATION AND TESTING",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "\n5.1 Implementation Approach",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "Introduction",
+        "style": "List Paragraph"
+      },
+      {
+        "para_index": 5,
+        "text": "Input and Output Design Implementation",
+        "style": "List Paragraph"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "\n5. IMPLEMENTATION AND TESTING",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "\n5.1 Implementation Approach",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "Introduction",
+        "style": "List Paragraph"
+      },
+      {
+        "para_index": 5,
+        "run_text": "Input and Output Design Implementation",
+        "style": "List Paragraph"
+      },
+      {
+        "para_index": 6,
+        "run_text": "Database Implementation",
+        "style": "List Paragraph"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}
