@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaEnvelope, FaLock, FaRobot } from "react-icons/fa";
+import { FaEnvelope, FaEye, FaEyeSlash, FaLock, FaRobot } from "react-icons/fa";
 import api from "../api/axios";
 import "../App.css";
 
@@ -11,6 +11,7 @@ function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -45,9 +46,10 @@ function Login() {
           <FaEnvelope className="icon" />
           <input type="email" placeholder="Email" value={email} onChange={(event) => setEmail(event.target.value)} required />
         </div>
-        <div className="input-box">
+        <div className="input-box password-input-box">
           <FaLock className="icon" />
-          <input type="password" placeholder="Password" value={password} onChange={(event) => setPassword(event.target.value)} required />
+          <input type={showPassword ? "text" : "password"} placeholder="Password" value={password} onChange={(event) => setPassword(event.target.value)} required />
+          <button type="button" className="password-toggle" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? "Hide password" : "Show password"}>{showPassword ? <FaEyeSlash /> : <FaEye />}</button>
         </div>
 
         {location.state?.message && !error && <p className="status-message success-message">{location.state.message}</p>}
